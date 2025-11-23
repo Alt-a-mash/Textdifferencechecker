@@ -157,8 +157,9 @@ export default function App() {
           name="description" 
           content="Free online diff tool to compare two texts and find differences instantly. Text comparison tool with real-time highlighting. Compare text online with our difference finder text checker - no signup required." 
         />
-        <link rel="canonical" href="#" />
+        <link rel="canonical" href="https://www.textdiffchecker.net/" />
         <meta name="robots" content="index, follow" />
+        <script type="application/ld+json">{`{ "@context":"https://schema.org", "@type":"SoftwareApplication", "name":"TextDiff", "url":"https://yourdomain.com", "description":"Compare two texts and highlight differences instantly." }`}</script>
       </Helmet>
       <Toaster richColors position="top-center" />
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
@@ -166,9 +167,9 @@ export default function App() {
         <header className="border-b border-gray-200 dark:border-gray-800">
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h2 className="text-blue-600 dark:text-blue-400">TextDiff</h2>
+              <h2><a href="https://www.textdiffchecker.net/" className="text-blue-600 dark:text-blue-400">TextDiff</a></h2>
               <nav className="flex gap-6 text-gray-600 dark:text-gray-400">
-                <a href="#" className="hover:text-gray-900 dark:hover:text-gray-100">
+                <a href="https://www.textdiffchecker.net/" className="hover:text-gray-900 dark:hover:text-gray-100">
                   Home
                 </a>
                 <span>|</span>
@@ -215,7 +216,7 @@ export default function App() {
             <strong className="text-gray-700 dark:text-gray-300">Sponsored</strong>
             <span className="text-gray-600 dark:text-gray-400"> — Want to reach developers & writers? Email </span>
             <a href="mailto:sponsor@textdiff.com" className="text-blue-600 dark:text-blue-400 hover:underline">
-              sponsor@textdiff.com
+              sponsor@textdiffchecker.net
             </a>
           </div>
 
@@ -428,7 +429,7 @@ export default function App() {
               <strong className="text-gray-700 dark:text-gray-300">Sponsored</strong>
               <span className="text-gray-600 dark:text-gray-400"> — Want to reach developers & writers? Email </span>
               <a href="mailto:sponsor@textdiff.com" className="text-blue-600 dark:text-blue-400 hover:underline">
-                sponsor@textdiff.com
+                sponsor@textdiffchecker.net
               </a>
             </div>
             
