@@ -62,7 +62,7 @@ function useDebounce<T>(value: T, delay: number): T {
 }
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [originalText, setOriginalText] = useState('');
   const [modifiedText, setModifiedText] = useState('');
   const [diffResult, setDiffResult] = useState<Diff.Change[] | null>(null);
