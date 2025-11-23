@@ -163,7 +163,7 @@ export default function App() {
           name="description" 
           content="Free online diff tool to compare two texts and find differences instantly. Text comparison tool with real-time highlighting. Compare text online with our difference finder text checker - no signup required." 
         />
-        <link rel="canonical" href="#" />
+        <link rel="canonical" href="https://www.textdiffchecker.net/" />
         <meta name="robots" content="index, follow" />
         
         {/* Favicon */}
