@@ -167,14 +167,14 @@ export default function App() {
         <meta name="robots" content="index, follow" />
         
         {/* Favicon */}
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://textdiffchecker.net/" />
         <meta property="og:title" content="TextDiff - Compare Texts Online Free" />
         <meta property="og:description" content="Free online diff tool to compare two texts and find differences instantly. Real-time highlighting, 100% private, no signup required." />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:image" content="/public/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="TextDiff - Compare Texts Online" />
@@ -184,7 +184,7 @@ export default function App() {
         <meta property="twitter:url" content="https://textdiffchecker.net/" />
         <meta property="twitter:title" content="TextDiff - Compare Texts Online Free" />
         <meta property="twitter:description" content="Free online diff tool to compare two texts and find differences instantly. Real-time highlighting, 100% private, no signup required." />
-        <meta property="twitter:image" content="/og-image.png" />
+        <meta property="twitter:image" content="/public/og-image.png" />
         <meta property="twitter:image:alt" content="TextDiff - Compare Texts Online" />
         
         {/* Structured Data */}
