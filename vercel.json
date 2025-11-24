@@ -1,8 +1,13 @@
 {
-  "redirects": 
-  [
+  "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "textdiffchecker.net"
+        }
+      ],
       "destination": "https://www.textdiffchecker.net/$1",
       "statusCode": 308
     }
