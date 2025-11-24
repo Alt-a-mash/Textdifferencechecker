@@ -1,0 +1,4 @@
+Place a 1200x630 PNG named og-image.png in this public/ folder.
+Recommended: 1200x630, keep important content centered, include the product name "TextDiffChecker" and a small logo.
+File path: public/og-image.png
+Once added, social previews (Facebook, Twitter) will show the OG image.
