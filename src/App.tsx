@@ -223,8 +223,8 @@ export default function App() {
             >
               <strong className="text-gray-800 dark:text-gray-200">Sponsored</strong>
               <span className="text-gray-700 dark:text-gray-300"> — Want to reach developers & writers? Email </span>
-              <a href="mailto:sponsor@textdiffchecker.net" className="text-blue-600 dark:text-blue-400 hover:underline">
-                sponsor@textdiffchecker.net
+              <a href="mailto:contact@textdiffchecker.net" className="text-blue-600 dark:text-blue-400 hover:underline">
+                contact@textdiffchecker.net
               </a>
             </div>
 
@@ -533,8 +533,8 @@ export default function App() {
             >
               <strong className="text-gray-800 dark:text-gray-200">Sponsored</strong>
               <span className="text-gray-700 dark:text-gray-300"> — Want to reach developers & writers? Email </span>
-              <a href="mailto:sponsor@textdiffchecker.net" className="text-blue-600 dark:text-blue-400 hover:underline">
-                sponsor@textdiffchecker.net
+              <a href="mailto:contact@textdiffchecker.net" className="text-blue-600 dark:text-blue-400 hover:underline">
+                contact@textdiffchecker.net
               </a>
             </div>
             
