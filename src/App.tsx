@@ -4,6 +4,7 @@ import { Button } from './components/ui/button';
 import { DiffViewer } from './components/DiffViewer';
 import * as Diff from 'diff';
 import HomeMeta from './components/HomeMeta';
+import Logo from './components/Logo';
 import { toast, Toaster } from 'sonner';
 import { BlogPost } from './components/BlogPost';
 import { BlogCard } from './components/BlogCard';
@@ -169,7 +170,8 @@ export default function App() {
                 className="flex text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
                 aria-label="Go to TextDiff home page"
               >
-                <Logo darkMode={darkMode} className="inline-block" />&nbsp&nbsp
+                <Logo darkMode={darkMode} className="inline-block" />
+                <span style={{ width: 10, display: 'inline-block' }} />
                 <h2>TextDiff</h2>
               </button>
               <nav className="hidden md:flex gap-6 text-gray-700 dark:text-gray-300" aria-label="Main navigation">
