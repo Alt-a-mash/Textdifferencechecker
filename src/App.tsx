@@ -166,9 +166,10 @@ export default function App() {
             <div className="flex items-center gap-8">
               <button 
                 onClick={() => setCurrentView('home')}
-                className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
+                className="flex text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
                 aria-label="Go to TextDiff home page"
               >
+                <Logo darkMode={darkMode} className="inline-block" />&nbsp&nbsp
                 <h2>TextDiff</h2>
               </button>
               <nav className="hidden md:flex gap-6 text-gray-700 dark:text-gray-300" aria-label="Main navigation">
