@@ -41,19 +41,20 @@ export default function HomeMeta() {
 
       {/* Structured Data */}
       <script type="application/ld+json">{`{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "TextDiff",
-  "url": "https://www.textdiffchecker.net",
-  "description": "Compare two texts and highlight differences instantly.",
-  "applicationCategory": "WebApplication",
-  "image": "https://www.textdiffchecker.net/og-image.png",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-}`}</script>
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "TextDiff",
+          "url": "https://www.textdiffchecker.net",
+          "description": "Compare two texts and highlight differences instantly.",
+          "applicationCategory": "WebApplication",
+          "image": "https://www.textdiffchecker.net/og-image.png",
+          "offers": 
+          {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+          }`}</script>
     </Helmet>
   );
 }
