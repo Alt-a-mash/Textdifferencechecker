@@ -19,8 +19,8 @@ export default function Logo({ darkMode, alt = "TextDiff", className = "" }: Pro
       src={isDark ? darkSrc : lightSrc}
       alt={alt}
       className={className}
-      width={48}
-      height={48}
+      width={28}
+      height={28}
       style={{ display: "block" }}
     />
   );
